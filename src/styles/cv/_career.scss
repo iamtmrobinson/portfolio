@@ -1,46 +1,48 @@
-.career h2 {
-  margin-bottom: 0;
-}
-
-.job {
-  clear: both;
-  padding-top: 2rem;
-
-  &__title {
-    float: left;
-    overflow: hidden;
-    width: 27.14286%;
+.t-cv {
+  .career h2 {
+    margin-bottom: 0;
   }
 
-  &__description {
-    float: left;
-    overflow: hidden;
-    width: 56.07143%;
-    margin-left: 16.25%;
+  .job {
+    clear: both;
+    padding-top: 2rem;
+
+    &__title {
+      float: left;
+      overflow: hidden;
+      width: 27.14286%;
+    }
+
+    &__description {
+      float: left;
+      overflow: hidden;
+      width: 56.07143%;
+      margin-left: 16.25%;
+    }
+
+    &__date {
+      color: #aaa;
+    }
+
+    h3 {
+      font-style: normal;
+      margin-top: 0;
+    }
+
+    ul {
+      list-style-type: disc;
+
+      li {
+        margin: 0.2em 2rem;
+      }
+    }
   }
 
-  &__date {
-    color: #aaa;
-  }
-
-  h3 {
-    font-style: normal;
+  .earlier-experience .job__description h4:first-child {
     margin-top: 0;
   }
 
-  ul {
-    list-style-type: disc;
-
-    li {
-      margin: 0.2em 2rem;
-    }
+  .earlier-experience .job__description h4 {
+    margin-bottom: 0.5rem;
   }
-}
-
-.earlier-experience .job__description h4:first-child {
-  margin-top: 0;
-}
-
-.earlier-experience .job__description h4 {
-  margin-bottom: 0.5rem;
 }

@@ -1,17 +1,19 @@
-.achievements {
-  list-style-type: disc;
+.t-cv {
+  .achievements {
+    list-style-type: disc;
 
-  li {
-    margin: 0.2em 0 0.2em 1.5rem;
-  }
-}
-
-.interests {
-  li {
-    font-size: 1rem;
+    li {
+      margin: 0.2em 0 0.2em 1.5rem;
+    }
   }
 
-  h3 {
-    font-style: normal;
+  .interests {
+    li {
+      font-size: 1rem;
+    }
+
+    h3 {
+      font-style: normal;
+    }
   }
 }

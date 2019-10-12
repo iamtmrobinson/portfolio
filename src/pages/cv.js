@@ -7,7 +7,7 @@ import LinkedInIcon from "../images/linkedin.png"
 import StackOverflowIcon from "../images/stackoverflow.png"
 
 const Cv = () => (
-  <div className="page-wrapper">
+  <div className="page-wrapper t-cv">
     <div className="intro">
       <h1>Tom Robinson, Development Lead</h1>
       <p>

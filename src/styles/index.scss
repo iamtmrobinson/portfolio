@@ -1,1 +1,26 @@
 @import "./reset";
+
+body {
+  font-size: 10px;
+}
+
+.t-portfolio {
+  p {
+    font-family: Helvetica, sans-serif;
+  }
+
+  .o-page-container {
+    max-width: 856px;
+  }
+
+  .o-heading--shout {
+    font-family: Helvetica, sans-serif;
+    font-size: 7.2rem;
+    font-weight: bold;
+    letter-spacing: 95%;
+  }
+
+  .o-heading--declare {
+    font-size: 2.4rem;
+  }
+}

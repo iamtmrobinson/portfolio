@@ -2,75 +2,83 @@
 @import "./cv/career";
 @import "./cv/personal";
 
-.page-wrapper {
+.t-cv.page-wrapper {
   margin: 0 auto;
   max-width: 824px;
 }
 
-.intro {
-  width: 69.625%;
-}
+.t-cv {
+  .intro {
+    width: 69.625%;
+  }
 
-.career {
-  width: 69.625%;
-  float: left;
-  overflow: hidden;
-}
+  .career {
+    width: 69.625%;
+    float: left;
+    overflow: hidden;
+  }
 
-.personal {
-  width: 19%;
-  margin-left: 11.375%;
-  float: left;
-  overflow: hidden;
-}
-
-.footnote {
-  clear: both;
-  font-size: 0.8rem;
-  text-align: center;
-  padding-top: 5rem;
-  color: #666;
-}
-
-.footnote a {
-  color: #666;
-}
-
-/*  Full-width below 580px */
-@media only screen and (max-width: 580px) {
-  .intro,
-  .career,
-  .job__title,
-  .job__description,
   .personal {
-    width: 100%;
-    margin: 0;
+    width: 19%;
+    margin-left: 11.375%;
+    float: left;
+    overflow: hidden;
   }
 
-  h2 {
-    font-size: 1.1rem;
-    line-height: 1.34rem;
+  .footnote {
+    clear: both;
+    font-size: 0.8rem;
+    text-align: center;
+    padding-top: 5rem;
+    color: #666;
   }
 
-  .job h3 {
-    font-size: 1.1rem;
-  }
-}
-
-@media print {
-  body {
-    font-size: 10px;
+  .footnote a {
+    color: #666;
   }
 
-  a {
-    text-decoration: none;
+  /*  Full-width below 580px */
+  @media only screen and (max-width: 580px) {
+    .intro,
+    .career,
+    .job__title,
+    .job__description,
+    .personal {
+      width: 100%;
+      margin: 0;
+    }
+
+    h2 {
+      font-size: 1.1rem;
+      line-height: 1.34rem;
+    }
+
+    .job h3 {
+      font-size: 1.1rem;
+    }
   }
 
-  .page-wrapper {
-    margin: 0;
-  }
+  @media print {
+    body {
+      font-size: 10px;
+    }
 
-  .social {
-    display: none;
+    a {
+      text-decoration: none;
+    }
+
+    .page-wrapper {
+      margin: 0;
+    }
+
+    .personal,
+    .footnote {
+      display: none;
+    }
+
+    .intro,
+    .career {
+      width: 85%;
+    }
   }
 }

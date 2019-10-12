@@ -1,0 +1,76 @@
+@import "./cv/global";
+@import "./cv/career";
+@import "./cv/personal";
+
+.page-wrapper {
+  margin: 0 auto;
+  max-width: 824px;
+}
+
+.intro {
+  width: 69.625%;
+}
+
+.career {
+  width: 69.625%;
+  float: left;
+  overflow: hidden;
+}
+
+.personal {
+  width: 19%;
+  margin-left: 11.375%;
+  float: left;
+  overflow: hidden;
+}
+
+.footnote {
+  clear: both;
+  font-size: 0.8em;
+  text-align: center;
+  padding-top: 5em;
+  color: #666;
+}
+
+.footnote a {
+  color: #666;
+}
+
+/*  Full-width below 580px */
+@media only screen and (max-width: 580px) {
+  .intro,
+  .career,
+  .job__title,
+  .job__description,
+  .personal {
+    width: 100%;
+    margin: 0;
+  }
+
+  h2 {
+    font-size: 1.1em;
+    line-height: 1.34em;
+  }
+
+  .job h3 {
+    font-size: 1.1em;
+  }
+}
+
+@media print {
+  body {
+    font-size: 10px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .page-wrapper {
+    margin: 0;
+  }
+
+  .social {
+    display: none;
+  }
+}

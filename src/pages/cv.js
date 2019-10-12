@@ -2,6 +2,10 @@ import React from "react"
 
 import "../styles/cv.scss"
 
+import GithubIcon from "../images/github.png"
+import LinkedInIcon from "../images/linkedin.png"
+import StackOverflowIcon from "../images/stackoverflow.png"
+
 const Cv = () => (
   <div className="page-wrapper">
     <div className="intro">
@@ -19,7 +23,7 @@ const Cv = () => (
       <div className="job">
         <div className="job__title">
           <h3>
-            Front-End Engineering Lead for{" "}
+            Front-End Engineer (Contract) for{" "}
             <a href="https://www.teammachine.io/">Team Machine</a>
           </h3>
           <p className="job__date">March 2018 - Present</p>
@@ -30,9 +34,9 @@ const Cv = () => (
             understand how work really happens in your business.
           </p>
           <p>
-            Full-stack Javascript developer responsible for delivering a React
-            SPA using Redux and D3 that integrated with a GraphQL server and
-            JSON API.
+            Front-end Javascript engineer responsible for delivering a React SPA
+            using Redux and D3 that integrated with a GraphQL server and JSON
+            API.
           </p>
           <p>
             There was a lot of room for creativity and collaboration as we tried
@@ -92,8 +96,8 @@ const Cv = () => (
           </ul>
           <h4>Technologies &amp; tools used</h4>
           <p>
-            JavaScript (ES6, Typescript, React, Redux, Jest, Node.js, Mocha,
-            Sinon), HTML, CSS (SASS, BEM), CloudFoundry, Jenkins, Azure
+            JavaScript (ES6, Typescript, React, Redux, Jest, Node.js, Gatsby,
+            Storybook), HTML, CSS (SASS, BEM), CloudFoundry, Jenkins, Azure
           </p>
         </div>
       </div>
@@ -171,9 +175,9 @@ const Cv = () => (
         </div>
         <div className="job__description">
           <p>
-            I grew a team of 3 developers to 6 and led the hiring process.
-            Taking tips and techniques from companies such as Google, I
-            redesigned our process to ensure we hired talented engineers who
+            Led the hiring process to grow my team to double its original size.
+            Taking tips and techniques from companies such as Google, I reworked
+            the way we hire to ensure we found excellent engineers who
             positively influenced our culture.
           </p>
           <p>
@@ -343,7 +347,7 @@ const Cv = () => (
           <h3>Creative process</h3>
           <p>
             Audiences are at the heart of everything we do. I love to create
-            enjoyable user experiences.
+            user experiences that delight.
           </p>
         </li>
         <li>
@@ -357,15 +361,15 @@ const Cv = () => (
           <h3>Great culture</h3>
           <p>
             I understand the benefits of a great team culture &amp; work hard to
-            ensure that it exists.
+            create an environment where that can exist.
           </p>
         </li>
         <li>
           <h3>Collaboration</h3>
           <p>
             We make the best products when we work together, sharing points of
-            view across disciplines. I've loved encouraging my team to work in
-            pairs with those in UX and seeing the benefits.
+            view across disciplines. I've loved encouraging my teams to work in
+            pairs with those in UX&amp;D and seeing the benefits.
           </p>
         </li>
       </ul>
@@ -387,25 +391,22 @@ const Cv = () => (
           Creating a 'universal embed' that serves millions of pieces of
           interactive content to the BBC audience each week
         </li>
-        <li>Becoming Head of Full Stack Engineers for MyBBC</li>
       </ul>
       <h2>Interests</h2>
       <p>
-        Drawing &amp; illustration, Yoga, Football, Finding great restaurants
+        Drawing &amp; illustration, yoga, football, finding great restaurants
+        and wine.
       </p>
       <div className="social">
         <h2>Social</h2>
         <a href="https://www.linkedin.com/in/tommrobinson">
-          <img src="/cv/images/linkedin.png" alt="iamtrobinson on LinkedIn" />
+          <img src={LinkedInIcon} alt="tommrobinson on LinkedIn" />
         </a>
         <a href="https://github.com/iamtmrobinson">
-          <img src="/cv/images/github.png" alt="iamtrobinson on Github" />
+          <img src={GithubIcon} alt="iamtmrobinson on Github" />
         </a>
         <a href="http://stackoverflow.com/users/1700846/tom-robinson">
-          <img
-            src="images/stackoverflow.png"
-            alt="tom-robinson on Stack Overflow"
-          />
+          <img src={StackOverflowIcon} alt="tom-robinson on Stack Overflow" />
         </a>
       </div>
     </div>

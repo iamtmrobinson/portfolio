@@ -4,7 +4,7 @@
 
 .job {
   clear: both;
-  padding-top: 2em;
+  padding-top: 2rem;
 
   &__title {
     float: left;
@@ -32,7 +32,7 @@
     list-style-type: disc;
 
     li {
-      margin: 0.2em 2em;
+      margin: 0.2em 2rem;
     }
   }
 }
@@ -42,5 +42,5 @@
 }
 
 .earlier-experience .job__description h4 {
-  margin-bottom: 0.5em;
+  margin-bottom: 0.5rem;
 }

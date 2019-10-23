@@ -237,106 +237,27 @@ const Cv = () => (
           <p>PHP (Zend Framework, PHPUnit), JavaScript, HTML, CSS</p>
         </div>
       </div>
-      <div className="job">
-        <div className="job__title">
-          <h3>Techical Lead (Senior Software Engineer) for BBC Open Games</h3>
-          <p className="job__date">November 2012 – December 2013</p>
-        </div>
-        <div className="job__description">
-          <p>
-            Lead developer of the Open Games project which created the BBC's
-            Game Services API (GAPI). GAPI is a RESTful JSON API written mainly
-            in PHP and Java, but also with an endpoint powered by Scala. These
-            APIs powered many of the social aspects of the BBC Children's game
-            portfolio.
-          </p>
-          <p>
-            With no dedicated QA team I was also responsible for writing
-            acceptance tests for the API. I translated product requirements in
-            to Gherkin scenarios that were run with Ruby and Cucumber.
-          </p>
-          <h4>Responsibilities</h4>
-          <ul>
-            <li>
-              Designed the technical architecture and design of the turn-based
-              multiplayer API to match the requirements of games
-            </li>
-            <li>Built RESTful JSON APIs in PHP, Java and Scala</li>
-            <li>Established peer review and pair programming practices</li>
-          </ul>
-          <h4>Products &amp; projects delivered</h4>
-          <ul>
-            <li>
-              Turn-based Multiplayer and High-scores for the Games Grid API
-            </li>
-            <li>Games Grid Unity&#8482; libraries</li>
-            <li>Wordsearch Creator</li>
-            <li>BBC Quiz API (ACME) and Admin System</li>
-          </ul>
-          <h4>Technologies &amp; tools used</h4>
-          <p>
-            PHP (Zend Framework, PHPUnit), Java (Spring, JUnit), Scala (Play),
-            Ruby, Cucumber, AWS (EC2, IAM)
-          </p>
-        </div>
-      </div>
-      <div className="job">
-        <div className="job__title">
-          <h3>Technical Lead (Senior Software Engineer) for BBC CBeebies</h3>
-          <p className="job__date">February 2012 – November 2012</p>
-        </div>
-        <div className="job__description">
-          <p>
-            Lead developer for the delivery of CBeebies Zend-based, PHP website
-            as well as the launch of CBeebies’ first mobile website and CBeebies
-            Radio Flash player.
-          </p>
-          <h4>Products &amp; projects delivered</h4>
-          <ul>
-            <li>CBeebies website</li>
-            <li>CBeebies Radio player</li>
-            <li>CBeebies Grown-ups website</li>
-          </ul>
-          <h4>Technologies &amp; tools used</h4>
-          <p>PHP (Zend Framework, PHPUnit), HTML, CSS, JavaScript (jQuery)</p>
-        </div>
-      </div>
       <div className="job earlier-experience">
         <div className="job__title">
           <h3>Earlier experience</h3>
         </div>
         <div className="job__description">
+          <h4>Techical Lead (Senior Software Engineer) for BBC Open Games</h4>
+          <p className="job__date">November 2012 – December 2013</p>
+          <h4>Technical Lead (Senior Software Engineer) for BBC CBeebies</h4>
+          <p className="job__date">February 2012 – November 2012</p>
           <h4>Freelance Front-end Web Developer for Bauer Media</h4>
           <p className="job__date">May 2007 – November 2012</p>
-          <p>
-            Freelance PHP, HTML &amp; CSS developer (clients included Peugeot,
-            Heinz, Sony Ericsson, Samsung and John Lewis).
-          </p>
           <h4>Senior Software Engineer for BBC Games Grid</h4>
           <p className="job__date">November 2011 – February 2012</p>
-          <p>
-            Lead PHP developer also developing across the whole stack in Java,
-            MySQL and ActionScript 3 and writing acceptance tests in Ruby &amp;
-            Cucumber.
-          </p>
           <h4>Web Developer for BBC Games Grid</h4>
           <p className="job__date">May 2010 – November 2011</p>
-          <p>PHP developer for the BBC’s RESTful Game Services API.</p>
           <h4>Web Developer for BBC FM&amp;T Vision</h4>
           <p className="job__date">June 2009 – May 2010</p>
-          <p>
-            PHP developer on the BBC Buzz pages &amp; Front-end developer on the
-            BBC channel homepages.
-          </p>
           <h4>Software Developer for Interlink Software</h4>
           <p className="job__date">August 2008 – May 2009</p>
-          <p>
-            C&#35; .NET and Java development on Interlink's BES dashboard and
-            SCM software.
-          </p>
           <h4>Junior Software Developer for Interlink Software</h4>
           <p className="job__date">June 2006 – July 2007</p>
-          <p>C&#35; .NET development on Interlink's BES dashboard software.</p>
         </div>
       </div>
     </div>

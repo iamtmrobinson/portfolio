@@ -303,11 +303,6 @@ const Cv = () => (
           interactive content to the BBC audience each week
         </li>
       </ul>
-      <h2>Interests</h2>
-      <p>
-        Drawing &amp; illustration, yoga, football, finding great restaurants
-        and wine.
-      </p>
       <div className="social">
         <h2>Social</h2>
         <a href="https://www.linkedin.com/in/tommrobinson">

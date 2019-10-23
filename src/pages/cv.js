@@ -217,7 +217,6 @@ const Cv = () => (
               Interactive Content Embed (ICE): a universal embed for interactive
               content
             </li>
-            <li>BBC Quizzes</li>
             <li>
               <a href="http://bbc.in/1yDsMGv">Responsive Quizzes</a>
             </li>

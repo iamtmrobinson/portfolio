@@ -205,26 +205,19 @@ const Cv = () => (
         </div>
         <div className="job__description">
           <p>
-            Designed and developed enabling services for interactive content
-            across the BBC. This included the play.bbc.co.uk PHP application
-            that provided a sandboxed environment for hosting games. The
-            application delivered millions of pieces of content each week.
-          </p>
-          <p>
-            Worked with teams across the business to create a universal
-            JavaScript embed (ICE) that allows interactive content to be easily
-            embedded in a BBC page.
-          </p>
-          <p>
-            Used HTML &amp; CSS to write a responsive quiz module and animated
-            it with JavaScript. The quiz consumed data from the JSON REST
-            endpoints of the ACME Quiz API. I paired with a UX Designer to
-            perfect the journey and animations.
+            Designed &amp; developed enabling services for BBC interactive
+            content.
           </p>
           <h4>Products &amp; projects delivered</h4>
           <ul>
-            <li>play.bbc.co.uk</li>
-            <li>Interactive Content Embed (ICE)</li>
+            <li>
+              play.bbc.co.uk: a sandboxed environment for games and content
+            </li>
+            <li>
+              Interactive Content Embed (ICE): a universal embed for interactive
+              content
+            </li>
+            <li>BBC Quizzes</li>
             <li>
               <a href="http://bbc.in/1yDsMGv">Responsive Quizzes</a>
             </li>
@@ -233,8 +226,6 @@ const Cv = () => (
               technical delivery of the BBC's first interactive episode
             </li>
           </ul>
-          <h4>Technologies &amp; tools used</h4>
-          <p>PHP (Zend Framework, PHPUnit), JavaScript, HTML, CSS</p>
         </div>
       </div>
       <div className="job earlier-experience">

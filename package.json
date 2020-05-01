@@ -19,11 +19,11 @@
     "prop-types": "^15.7.2",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^5.2.1",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
-    "prettier": "^1.18.2",
-    "snyk": "^1.279.0"
+    "prettier": "^1.18.2"
   },
   "keywords": [
     "gatsby"
@@ -37,7 +37,9 @@
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \"",
     "snyk:test": "snyk test",
-    "snyk:wizard": "snyk wizard"
+    "snyk:wizard": "snyk wizard",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -45,5 +47,6 @@
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
-  }
+  },
+  "snyk": true
 }
